@@ -1,0 +1,275 @@
+@charset "utf-8";
+body{
+	max-width: 960px;
+    min-width: 600px;
+    margin: 0 auto;
+    font-weight: none;
+    font-family:Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+	color: #666666;
+    position: relative;
+}
+
+article{
+    width: 70%;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+
+body > header{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+body > header > a {
+	margin-right: auto;
+}
+
+body > header > #logo{
+	margin-right: auto;
+}
+
+body > header > #rtop_menu{
+	flex: 1;
+}
+
+body > header > div > ul{
+	float: right;
+	font-size: 12px;
+	list-style-type: none;
+}
+
+#main_menu > ul{
+	padding: 1em;
+	list-style-type: none;
+	display: block;
+	display: flex;
+}
+
+
+/*middle*/
+div > header{
+	display: flex;
+}
+
+div > header > span{
+	padding: 30px;
+ 	width: 60%;
+}
+
+.rmiddle_menu{
+	width: 20%;
+	list-style-type: none;
+	padding: 0;
+}
+
+.rmiddle_menu > li{
+	border-bottom: 1px dotted black;
+	margin-right: 15px;
+}
+.rmiddle_menu a{
+	text-decoration: none;
+	color: green;
+	font-size: 0.8em;
+	line-height: 1.7;
+}
+
+.rmiddle_menu a:hover{
+	color: orange;
+}
+.rmiddle_menu a:visited{
+	color: red;
+}
+
+.middle_pic{
+	display: flex;
+	margin-top: 1em;
+}
+
+#intro{
+	flex: 1;
+	height:300px;
+	background-color: black;
+	color:white;
+	font-size: 16px;
+	padding: 2em;
+	box-sizing: border-box;
+}
+
+/*article*/
+
+article >　div{
+	width:71%
+}
+
+article > div > table{
+	list-style-type: none;
+	font-size: 14px;
+	background-color: #EEF5DF;
+	margin-right:10px; 
+	padding-left: 0px;
+	border: 1px solid #cccccc;
+
+}
+/*schedule*/
+#schedule{
+	display: flex;
+	flex-flow: column wrap;
+	width: 71%;
+}
+#schedule > table{
+	width: 100%;
+	border: 1px solid lightgrey;
+	margin-bottom: 20px;
+}
+#schedule > table > thead > tr > th{
+	background-color: #99CC00;
+}
+#schedule > table > tbody > tr > td:first-child{
+	text-align: center;
+	width: 10%;
+}
+#schedule > table > tbody > tr > td:nth-child(2){
+	width: 50%;
+}
+#schedule > table > tbody > tr > td:last-child{
+	width: 40%;
+}
+#schedule > table > tbody > tr > td{
+	background-color: #EEF5DF;
+}
+#schedule > table > tbody > tr > .table-memo{
+	background-color: white;
+	font-weight: bold;
+}
+
+
+#schedule > article{
+	display: flex;
+	flex-flow: column;
+}
+
+/*middle*/
+#middle{
+	display: flex;
+}
+#middle > aside{
+	background-color: #EEF5DF;
+	float: right;
+	width: 25%;
+	padding: 0 1% 0 1%;
+	margin: 0 1% 0 1%;
+	border-top: 5px solid #C0D43D;
+}
+#middle > aside > p:nth-child(2){
+	font-size: 1.2em;
+}
+#middle > aside > h4{
+	font-size: 1.4em;
+	color: #669933;
+}
+#middle > aside > ol > li{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+#middle > aside > ul > li{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+#middle > aside > p{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+
+.intro{
+	border-bottom: 1px dotted orange;
+	margin: 15px 0px 15px 0px;
+}
+.intro:last-child{
+	border-bottom: none;
+}
+.intro > .img{
+	float: left;
+	display: flex;
+	flex-flow: column;
+	margin-right: 10px;
+	width: 38%;
+}
+.intro > .img > img:first-child{
+	margin-bottom: 20px;
+}
+.intro > .img > p{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+.intro > p{
+	display: flex;
+	flex-flow: column;
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+.intro > p > span{
+	color: brown;
+}
+
+
+/*aside*/
+aside{
+	background-color: #EEF5DF;
+	float: right;
+	width: 25%;
+	padding: 0 1% 0 1%;
+	margin: 0 1% 0 1%;
+	border-top: 5px solid #C0D43D;
+}
+aside > p:nth-child(1){
+	font-size: 1.2em;
+}
+aside > h4{
+	font-size: 1.4em;
+	color: #669933;
+}
+aside > ol > li{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+aside > ul > li{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+aside > p{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+
+
+/*footer*/
+body > footer{
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	border-top: 1px dotted grey;
+	border-bottom: 8px solid grey;
+}
+body > footer > p{
+	font-size: 0.7em;
+	line-height: 1.7;
+	margin-right: auto;
+}
+#bottom{
+	width: 45%;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+}
+#bottom > li > a{
+	text-decoration: none;
+	font-size: 0.7em;
+	color: black;
+	border-right: 1px solid black;
+	padding: 0 5px 0 5px;
+}
